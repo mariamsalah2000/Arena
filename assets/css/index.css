@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.button {
+    background-color: #c8545c;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+.button2 {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: 2px solid #c8545c;
+    font-family: 'Lato', sans-serif;
+}
+
+.button:hover {
+    background-color: rgba(200, 84, 92, .6);
+    color: white;
+}
+
+.button2:hover {
+    background-color: #c8545c;
+    color: white;
+}
+
+/**/
+
+header h1 {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 65px;
+    font-size: 55px;
+    font-style: normal;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+header p {
+    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: lighter;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    z-index: 3;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    transition: 0.6s;
+    width: 100%;
+}
+
+.main-nav {
+    margin-top: 3.2rem;
+}
+
+.main-nav .logo {
+    width: 45%;
+    height: 100%;
+}
+
+header ul li a span {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    margin: .5rem !important;
+    font-family: 'Lato', sans-serif;
+}
+
+header ul li a:hover {
+    background-color: #c8545c;
+    cursor: pointer;
+}
+
+header ul li a:hover span {
+    color: #444444;
+}
+
+.nav-bar.sticky {
+    background-color: #444444;
+    width: 100%;
+}
+
+.nav-bar.sticky .main-nav {
+    margin-top: 0rem;
+}
+
+.nav-bar.sticky ul li a span {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-bar.sticky ul li a:hover span {
+    color: white;
+}
+
+/*button-up*/
+
+.button-up {
+    position: fixed;
+    right: -70px;
+    bottom: 4%;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow-y: hidden !important;
+    height: 55px;
+    width: 55px;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: bolder;
+}
+
+.button-up:hover {
+    background-color: #c8545c;
+    color: white;
+}
+
+.button-up p {
+    color: white !important;
+    font-weight: bolder;
+}
+
+.button-up.show {
+    right: 4%;
+}
+
+/*******/
+
+/**/
+.about-us h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.4em;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: light;
+}
+
+.about-us .line {
+    height: 2px;
+    width: 100px;
+    margin: 0px 0px 20px 0px;
+    background-color: #c8545c;
+}
+
+/**/
+.products-sec h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.products-sec p {
+    font-size: 17px;
+    color: #777;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: .5rem;
+    height: .5rem;
+    background-size: 50% 100%;
+}
+
+.products-sec .circle {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(197, 204, 204, .3);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.products-sec .circle i {
+    color: #c8545c;
+    font-size: small;
+}
+
+/**/
+
+/**/
+.who-we h1 {
+    font-weight: bold;
+    line-height: 1.3em;
+    font-size: 45px;
+    font-style: normal;
+    color: #222;
+    font-family: 'Lato', sans-serif;
+}
+
+.who-we h2 {
+    line-height: 1.3em;
+    font-size: 25px;
+    font-style: normal;
+    color: #222;
+    font-family: 'Lato', sans-serif;
+}
+
+.who-we p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: light;
+}
+
+.who-we .line {
+    height: 2px;
+    width: 100px;
+    margin: 20px 0px 20px 0px;
+    background-color: #c8545c;
+}
+
+/**/
+
+/**/
+.num-sec {
+    background-color: #c8545c;
+    padding: 3rem;
+}
+
+.num-sec h4 {
+    line-height: 1.3em;
+    font-size: 45px;
+    font-style: normal;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+}
+
+.num-sec p {
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: lighter;
+}
+
+.num-sec .line {
+    height: 1px;
+    width: 35px;
+    margin: 20px 0px 0px 0px;
+    background-color: white;
+}
+
+/**/
+
+/**/
+.contact-us {
+    background-color: rgba(34, 34, 34, .96);
+    padding: 3rem;
+}
+
+.contact-us h2 {
+    font-weight: 400;
+    color: #e8e8e8;
+    font-size: 40px;
+    line-height: 1.4em;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-us p {
+    color: #a0a0a0;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.contact-us .line {
+    height: 2px;
+    width: 100px;
+    margin: 10px 0px 10px 0px;
+    background-color: #c8545c;
+}
+
+/**/
+
+.projects-sec h2 {
+    font-weight: bold;
+    color: #000;
+    font-size: 40px;
+    line-height: 1.4em;
+    font-family: 'Lato', sans-serif;
+}
+
+.projects-sec h4 {
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projects-sec .main-proj {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.projects-sec .row-proj {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.projects-sec .row-proj,
+.projects-sec .row-proj>.projects-sec .column-proj {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.projects-sec .column-proj {
+    float: left;
+    width: 25%;
+    display: none;
+    /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.projects-sec .row-proj:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.projects-sec .content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.projects-sec .show {
+    display: block;
+}
+
+/* Style the buttons */
+.projects-sec .button3 {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Add a grey background color on mouse-over */
+.projects-sec .button3:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.projects-sec .button3.active-proj {
+    background-color: #c8545c;
+    color: white;
+}
+
+.projects-sec .line {
+    height: 2px;
+    width: 90px;
+    margin: 0px 0px 20px 10px;
+    background-color: #c8545c;
+}
+
+/**/
+
+
+/*start footer*/
+
+footer {
+    background-color: #222222;
+}
+
+.main-footer {
+    padding: 3rem !important;
+}
+
+footer .container {
+    padding: 20px;
+}
+
+footer h6 {
+    font-size: 15px !important;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer ul li {
+    list-style: none;
+    line-height: 2em;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #c8545c;
+}
+
+footer ul li p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+footer ul li p:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    background-color: #c8545c;
+    text-align: center;
+}
+
+footer .circle {
+    height: 40px;
+    width: 40px;
+    background-color: #c5cccc;
+    text-align: center;
+    border-radius: 50%;
+}
+
+footer .circle i {
+    color: #6c6c6c;
+}
+
+.icon:hover {
+    background-color: rgba(200, 84, 92, .5);
+}
+
+.icon i {
+    color: white !important;
+    font-size: 20px;
+    margin-top: auto !important;
+    text-align: center;
+}
+
+.square-footer {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c8545c;
+}
+
+.text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.square-footer:hover .overlay {
+    opacity: 1;
+}
+
+.small-footer {
+    background-color: white;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.small-footer img{
+    width:250px;
+    height: 100%;
+}
+
+/*end footer*/
+
+@media screen and (max-width:1000px) {
+    .navbar-toggler {
+        background-color: white;
+        font-size: .8rem;
+        margin: 0 !important;
+    }
+
+    .navbar>.container {
+        justify-content: space-around;
+    }
+  
+    .navbar .navbar-nav 
+    {
+        background-color: rgba(69, 69, 69,.4);
+    }
+
+    header {
+        position: relative;
+    }
+
+    .header-content {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        width: 350px;
+    }
+
+    header h1 {
+        line-height:8px;
+        font-size: 13px;
+    }
+
+    header p {
+        font-size: 9px;
+        line-height: 10px;
+        margin-bottom: 9px!important;
+    }
+
+    .main-nav {
+        margin-top: 0rem;
+    }
+
+    .main-nav .logo {
+        width: 55%;
+        height: 100%;
+    }
+
+    .collapse .navbar-collapse .navbar-nav {
+        background-color: #444444 !important;
+    }
+
+    /**********/
+    .about-us ,
+    .products-sec,
+    .who-we,
+    .projects-sec
+    {
+        padding: 25px;
+    }
+    .about-us h2 {
+        font-size: 18px;
+    }
+    
+    .about-us p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /**/
+    .who-we h1 {
+        line-height: 1.3em;
+        font-size: 25px;
+    }
+    
+    .who-we h2 {
+        line-height: 1.3em;
+        font-size: 15px;
+    }
+    
+    .who-we p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /**/
+
+    .projects-sec h2 {
+        font-size: 30px;
+        line-height: 1.4em;
+    }
+    
+    .projects-sec h4 {
+        font-size: 8px;
+        line-height: 1.4em;
+    }
+    .projects-sec .button3 {
+        padding: 5px 9px;
+        font-size: 10px;
+    }
+
+    /**/
+    .contact-us h2 {
+        font-size: 25px;
+        line-height: 1.4em;
+    }
+    
+    .contact-us p {
+        font-size: 13px;
+        line-height: 1.2em;
+    }
+
+    /**/
+
+    .small-footer img{
+        width:100px;
+        height: 100%;
+    }
+    .small-footer small
+    {
+        font-size: 9px;
+    }
+    footer .circle {
+        height: 25px;
+        width: 25px;
+    }
+    
+    footer .circle i {
+        color: #6c6c6c;
+        font-size: small;
+        padding-bottom: 10px;
+    }
+    
+}
